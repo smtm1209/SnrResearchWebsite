@@ -3,10 +3,38 @@
     <head>
 		<title>"Sound Steerer"</title>
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script> <!--jQuery-->
-		<script src="../js/index.js"></script> <!--Custom JS-->
-		<link type="text/css" rel="stylesheet" href="../css/index-style.css"/> <!--Custom Style-->
+		<script src="../js/index.js"></script> 
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+        <script src="../js/index.js"></script>
+		<link type="text/css" rel="stylesheet" href="../css/index.css"/> <!--Custom Style-->
     </head>
     <body>
-        
+        <div id="header">
+            <ul id="top_nav">
+                <li id="nav_title"><h4>Relevant Links:</h4></li>
+                <li id="nav_guide"><a href="../html/index.html">Home</a></li>
+                <li id="nav_docs">
+                    <a href="#">Documentation &#x25BC</a>
+                    <ul id="nav_dropdown">
+                        <li><a href="">Circuit</a></li>
+                        <li><a href="">Code</a></li>
+                        <li><a href="">Math</a></li>
+                    </ul>
+                </li>
+                <li id="nav_paper"><a href="../assets/ProjectProposal.pdf">The Paper</a></li>
+                <li id="nav_pics"><a href="">Pictures</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="working_title" class="container">
+                <p>Working Title</p>
+                <h2>Developing a Sound Steerer in the Three-Dimensional Free Field</h2>
+
+            </div>
+            <div id="abstract" class="container">
+                <h5>Abstract</h5>
+                <p>My project uses beamforming to steer sound around a room and envelop a person a private cloud of sound undetectable to anyone else. Specifically, my project investigates various beamforming algorithms&mdash;notably Delay &amp; Sum, Pressure Matching, and Energy Difference Maximization&mdash;with both quantitative and qualitative metrics. The results of my research not only apply to beamforming in the audio domain, but also to analog signals in the more complex RF domain. In today's world, shaving a few seconds off loading times can drastically effect a company's bottom line. To cut loading times on mobile devices, multiple International Mobile Telecommunications-Advanced standards have been created, most recently the 5G standard. So far, all standards have used the "shotgun" approach and send the same signal to all devices within range. 5G uses beamforming to "snipe" a signal only to the relevant mobile device, allowing for faster read and write speeds. The insights gleaned from my project can help to better understand 5G and possibly improve it. </p>
+            </div>
+        </div>
     </body>
 </html>
