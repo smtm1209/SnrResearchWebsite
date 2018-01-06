@@ -9,7 +9,7 @@ html {
 
 body {
 	margin:0px;
-	background-color: #F7E7CE;
+	background-color: white;
 }
 
 #header {
@@ -91,6 +91,7 @@ body {
 .container {
 	margin: 20px auto;
 	border: 2px solid #D88373;	
+	background-color: #F7E7CE;
 }
 
 #working_title p {
