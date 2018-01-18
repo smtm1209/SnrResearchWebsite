@@ -15,16 +15,24 @@
                 <li id="nav_title"><h4>Links:</h4></li>
                 <li id="nav_guide"><a href="../html/index.html">Home</a></li>
                 <li id="nav_docs">
-                    <a href="#">Documentation &#x25BC</a>
+                    <a href="#">Documentation &#x25BC;</a>
                     <ul id="nav_dropdown">
                         <li><a href="">Schematic</a></li>
                         <li><a href="">Engineering Notes</a></li>
-                        <li><a href="https://github.com/smtm1209/SnrResearchFPGACode">FPGA Code</a></li>
+                        <li><a href="https://github.com/smtm1209/SnrResearchFPGACode" rel="noopener noreferrer" target="_blank">FPGA Code</a></li>
                         <li><a href="">R.Pi Code</a></li>
                         <li><a href="">Math Demo</a></li>
                     </ul>
                 </li>
-                <li id="nav_paper"><a href="../assets/ProjectProposal.pdf">Paper</a></li>
+                <li id="nav_paper">
+                    <a href="">Paper &#x25BC;</a>
+                    <ul id="paper_dropdown">
+                        <li><a href="../assets/ProjectProposal.pdf" rel="noopener noreferrer" target="_blank">Proposal &#10515;</a></li>
+                        <li><a href="" rel="noopener noreferrer" target="_blank">Paper &#10515;</a></li>
+                        <li><a href="" rel="noopener noreferrer" target="_blank">TBD...</a></li>
+                    </ul>
+                </li>
+
                 <li id="nav_pics"><a href="">Pictures</a></li>
             </ul>
         </div>
@@ -35,8 +43,25 @@
 
             </div>
             <div id="abstract" class="container">
-                <h5>Abstract</h5>
+                <h5>Description</h5>
                 <p>My project uses beamforming to steer sound around a room and envelop a person a private cloud of sound undetectable to anyone else. Specifically, my project investigates various beamforming algorithms&mdash;notably Delay &amp; Sum, Pressure Matching, and Energy Difference Maximization&mdash;with both quantitative and qualitative metrics. The results of my research not only apply to beamforming in the audio domain, but also to analog signals in the more complex RF domain. In today's world, shaving a few seconds off loading times can drastically effect a company's bottom line. To cut loading times on mobile devices, multiple International Mobile Telecommunications-Advanced standards have been created, most recently the 5G standard. So far, all standards have used the "shotgun" approach and send the same signal to all devices within range. 5G uses beamforming to "snipe" a signal only to the relevant mobile device, allowing for faster read and write speeds. The insights gleaned from my project can help to better understand 5G and possibly improve it. </p>
+            </div>
+            <div id="alg_comp" class="container">
+                <h5>Algorithm Comparison</h5>
+                <table id="alg_pics">
+                    <tr id="first_row">
+                        <td class="label">Delay &amp; Sum</td>
+                        <td><img src="../assets/DS300.png"/></td>
+                        <td><img src="../assets/DS3000.png"/></td>
+                        <td><img src="../assets/DS15000.png"/></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Pressure Matching</td>
+                        <td><img src="../assets/PM300.png"/></td>
+                        <td><img src="../assets/PM3000.png"/></td>
+                        <td><img src="../assets/PM15000.png"/></td>
+                    </tr>
+                </table>
             </div>
         </div>
     </body>

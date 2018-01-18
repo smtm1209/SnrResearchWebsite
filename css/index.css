@@ -83,15 +83,12 @@ body {
 	z-index: 1;
 }
 
-#content div {
-	box-shadow: 10px 10px 5px #888888;
-	width: 90%;
-}
-
 .container {
 	margin: 20px auto;
 	border: 2px solid #BD1E1E;	
 	background-color: #F7E7CE;
+	box-shadow: 10px 10px 5px #888888;
+	width: 90%;
 }
 
 #working_title p {
@@ -107,11 +104,11 @@ body {
 	margin-top: 0;
 }
 
-#abstract h5 {
+#abstract h5, #alg_comp h5 {
 	font-size: 1.4em;
 	display: block;
 	text-align: center;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 #abstract p {
@@ -119,6 +116,31 @@ body {
 	padding: 0 20px;
 	text-align: left;
 }
+
+#alg_pics {
+	padding: 20px;
+}
+
+#alg_pics td {
+	margin: auto;
+	width: 25%;
+	padding: 10px;
+}
+
+#alg_pics .label {
+	margin: auto;
+	width: 5%;
+}
+
+#alg_pics img {
+	width: 100%;
+}
+
+#alg_pics #first_row td{
+	border-bottom: 2px solid #BD1E1E;
+}
+
+
 
 /*
 colors: 
